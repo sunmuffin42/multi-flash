@@ -25,7 +25,8 @@ export default class CreateCardsPage extends React.Component{
 
         {/* form here, then have seperate component for list of card entries*/}
         <form onSubmit={this.setCardCount.bind(this)}>
-          <input type="text" ref="cardCount"></input>
+          <label for="card-count"># of Cards: </label>
+          <input id="card-count" type="text" ref="cardCount"></input>
           <button type="submit">Go</button>
         </form>
 
