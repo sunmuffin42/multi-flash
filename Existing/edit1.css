@@ -1,0 +1,22 @@
+#top{ /*menu orignial formatting*/
+	background: gray;
+	color: white; /*font*/	
+}
+#topnav #here{
+	background: lightgreen
+}
+#topnav li{ /*menu links (list items formatting*/
+	display: inline-block; /*put them next to each other*/
+	list-style: none;
+	padding: 5px; /*each item has some breathing room*/
+	font: bold 14px notosans;
+	background: lightblue
+}
+#topnav ul{
+	background: silver
+}
+#row li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px
+}
